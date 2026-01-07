@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCAM AI SCANNER v1.0 (BETA) - Solana Token Security</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <div class="matrix-bg" id="matrixBg"></div>
+
+    <div class="main-container">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="terminal-title">SCAM AI SCANNER v1.0 (BETA)</div>
+                <div class="terminal-links">
+                    <a href="/" class="nav-link active">Scanner</a>
+                    <a href="/docs" class="nav-link">Docs</a>
+                    <a href="/bots" class="nav-link">Bots</a>
+                </div>
+            </div>
+
+            <div class="terminal-body">
+                <!-- ASCII Header -->
+                <div class="ascii-header">
+                    <pre class="ascii-art">
+███████╗ ██████╗ █████╗ ███╗   ███╗     █████╗ ██╗
+██╔════╝██╔════╝██╔══██╗████╗ ████║    ██╔══██╗██║
+███████╗██║     ███████║██╔████╔██║    ███████║██║
+╚════██║██║     ██╔══██║██║╚██╔╝██║    ██╔══██║██║
+███████║╚██████╗██║  ██║██║ ╚═╝ ██║    ██║  ██║██║
+╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝    ╚═╝  ╚═╝╚═╝
+                    </pre>
+                </div>
+
+                <!-- Threat Detection Box -->
+                <div class="threat-box">
+                    <div class="threat-content">
+                        <div class="threat-title">
+                            <span class="warning-icon">[!]</span>
+                            SCAM AI DETECTOR SYSTEM
+                            <span class="warning-icon">[!]</span>
+                        </div>
+                        <div class="threat-subtitle">[ THREAT DETECTION ACTIVE ]</div>
+                        <div class="alert-mode">
+                            <span class="mode-label">ALERT MODE:</span>
+                            <span class="mode-indicator">ARMED</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Defense System Status -->
+                <div class="scanner-section">
+                    <div class="section-header">DEFENSE SYSTEM: ONLINE</div>
+                    <ul class="feature-list">
+                        <li class="feature-item">[AI] Machine Learning Prediction - 87% Accuracy</li>
+                        <li class="feature-item">Enhanced Creator Analysis - Serial Rugger Detection</li>
+                        <li class="feature-item">Whale Dumping Detection - Coordinated Exits</li>
+                        <li class="feature-item">Advanced Pump & Dump Analysis - 6 Patterns</li>
+                        <li class="feature-item">Confidence Scoring - Reliability Indicators</li>
+                        <li class="feature-item">Fake Holders Detection - Sybil Attacks</li>
+                        <li class="feature-item">Insider Trading Analysis - Sniper Detection</li>
+                        <li class="feature-item">Wash Trading Scanner - Volume Analysis</li>
+                        <li class="feature-item">Real-Time Blockchain Data</li>
+                        <li class="feature-item">Social Media Verification</li>
+                    </ul>
+                </div>
+
+                <!-- Input Section -->
+                <div class="input-section">
+                    <div class="input-label">ENTER CONTRACT TO ANALYZE</div>
+                    <form id="scanForm" class="scan-form">
+                        <div class="input-container">
+                            <input type="text"
+                                   class="contract-input"
+                                   id="mintAddress"
+                                   placeholder="e.g., BDuWXaAcs88guisXQWvdiDGDVWn7eR7Wxw3Q5KLgpump"
+                                   autocomplete="off"
+                                   required>
+                            <button type="submit" class="scan-button" id="scanButton">
+                                <span id="buttonText">SCAN TOKEN</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Status Bar -->
+                <div class="status-bar">
+                    <div class="status-item">
+                        <span class="status-indicator"></span>
+                        <span class="status-label">STATUS:</span>
+                        <span class="status-value" id="statusValue">READY</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">NETWORK:</span>
+                        <span class="status-value">SOLANA</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">SCANS:</span>
+                        <span class="status-value" id="scanCount">0</span>
+                    </div>
+                </div>
+
+                <!-- Progress Section -->
+                <div id="progressSection" class="loading" style="display: none;">
+                    <div class="loading-text">SCANNING BLOCKCHAIN...</div>
+                    <div class="loading-bar">
+                        <div class="loading-progress" id="progressFill"></div>
+                    </div>
+                    <div class="progress-steps" id="progressSteps"></div>
+                </div>
+
+                <!-- Results Section -->
+                <div class="results-section" id="results" style="display: none;">
+                    <!-- Results will be inserted here by JavaScript -->
+                </div>
+
+                <!-- Error Section -->
+                <div id="error" class="error-section" style="display: none;">
+                    <div class="error-message"></div>
+                </div>
+
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="footer-links">
+                        <a href="/docs" class="footer-link">DOCUMENTATION</a>
+                        <span class="footer-link" style="opacity: 0.5; cursor: default;">GITHUB (Bientôt)</span>
+                        <span class="footer-link" style="opacity: 0.5; cursor: default;">X (Bientôt)</span>
+                        <a href="https://solana.com" target="_blank" class="footer-link">SOLANA</a>
+                        <a href="https://pump.fun" target="_blank" class="footer-link">PUMP.FUN</a>
+                    </div>
+                    <div class="disclaimer">[!] ALWAYS DYOR (Do Your Own Research) | Not financial advice</div>
+                    <div class="copyright">©SCAM AI 2025 - All Rights Reserved</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/scanner.js') }}"></script>
+    <script>
+        // Cyber grid background - pure CSS (no JS needed)
+
+        // Scan counter - fetch from backend
+        async function updateScanCount() {
+            try {
+                const response = await fetch('/api/stats');
+                if (response.ok) {
+                    const stats = await response.json();
+                    document.getElementById('scanCount').textContent = stats.total_scans || 0;
+                }
+            } catch (error) {
+                console.error('Error fetching stats:', error);
+            }
+        }
+
+        // Load initial count on page load
+        updateScanCount();
+    </script>
+</body>
+</html>

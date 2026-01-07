@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: rug-ai
+    env: python
+    region: frankfurt  # Changez selon votre région (frankfurt/oregon/singapore)
+    plan: starter  # 7$/mois
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    envVars:
+      - key: DISCORD_BOT_TOKEN
+        sync: false  # À configurer manuellement sur Render Dashboard
+      - key: SOLANA_RPC_URL
+        value: https://api.mainnet-beta.solana.com
+      - key: HELIUS_API_KEY
+        sync: false  # À configurer manuellement
+      - key: API_URL
+        value: http://localhost:5000
+      - key: PYTHON_VERSION
+        value: 3.11.0
+    healthCheckPath: /

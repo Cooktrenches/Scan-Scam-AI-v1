@@ -1,0 +1,26 @@
+[
+  {
+    "mint": "EXAMPLE_RUG_MINT_ADDRESS_1",
+    "name": "ScamCoin",
+    "symbol": "SCAM",
+    "creator": "CREATOR_WALLET_ADDRESS",
+    "created_timestamp": 1234567890,
+    "notes": "Rug pulled after 2 hours - dev removed liquidity"
+  },
+  {
+    "mint": "EXAMPLE_RUG_MINT_ADDRESS_2",
+    "name": "RugToken",
+    "symbol": "RUG",
+    "creator": "CREATOR_WALLET_ADDRESS",
+    "created_timestamp": 1234567891,
+    "notes": "Market cap dropped 95% in 30 minutes"
+  },
+  {
+    "mint": "EXAMPLE_RUG_MINT_ADDRESS_3",
+    "name": "FakeGem",
+    "symbol": "FAKE",
+    "creator": "CREATOR_WALLET_ADDRESS",
+    "created_timestamp": 1234567892,
+    "notes": "Serial rugger - 10th token"
+  }
+]

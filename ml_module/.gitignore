@@ -1,0 +1,42 @@
+# ML Module .gitignore
+
+# Datasets (can be large and sensitive)
+dataset/*.csv
+dataset/features.csv
+
+# Keep example files
+!dataset/*_EXAMPLE.json
+!dataset/README.md
+
+# Trained models (can be large)
+models/*.pkl
+models/*.json
+# But keep production models for deployment
+!models/*_latest.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

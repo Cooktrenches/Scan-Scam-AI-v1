@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord & Telegram Bots - Scam AI SCANNER v1.0 (BETA)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <div class="matrix-bg" id="matrixBg"></div>
+
+    <div class="main-container">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="terminal-title">Scam AI SCANNER v1.0 (BETA) - DISCORD & TELEGRAM BOTS</div>
+                <div class="terminal-links">
+                    <a href="/" class="nav-link">Scanner</a>
+                    <a href="/docs" class="nav-link">Docs</a>
+                    <a href="/bots" class="nav-link active">Bots</a>
+                </div>
+            </div>
+
+            <div class="terminal-body">
+                <!-- Header -->
+                <div class="threat-box" style="max-width: 100%;">
+                    <div class="threat-content">
+                        <div class="threat-title">
+                            <span class="warning-icon">[🤖]</span>
+                            DISCORD & TELEGRAM BOTS
+                            <span class="warning-icon">[🤖]</span>
+                        </div>
+                        <div class="threat-subtitle">[ SCAN TOKENS DIRECTLY FROM YOUR FAVORITE PLATFORMS ]</div>
+                    </div>
+                </div>
+
+                <!-- Introduction -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[>] Scan Tokens on Discord & Telegram</div>
+                    <p style="color: var(--text-dim); line-height: 1.8; margin-top: 15px;">
+                        Use Scam AI directly from <strong style="color: var(--primary);">Discord</strong> or
+                        <strong style="color: var(--primary);">Telegram</strong>! No need to open a browser -
+                        just type a command and get instant AI-powered analysis.
+                    </p>
+                </div>
+
+                <!-- Discord Bot Section -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[DISCORD] Discord Bot Features</div>
+
+                    <div class="info-grid">
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">✨ Beautiful Slash Commands</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Modern Discord slash commands with auto-completion and help text.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Type <code>/</code> to see all commands</li>
+                                <li>Auto-complete addresses</li>
+                                <li>Inline parameter descriptions</li>
+                                <li>Works in all servers</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">🎨 Rich Embeds</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Beautiful color-coded embeds with all analysis data.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>🟢 Green = Safe tokens</li>
+                                <li>🟡 Yellow = Medium risk</li>
+                                <li>🔴 Red = High risk</li>
+                                <li>⛔ Dark Red = Extreme danger</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">⚡ Instant Results</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                AI-powered analysis in 10-30 seconds.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Real-time scanning indicator</li>
+                                <li>Progress updates</li>
+                                <li>Comprehensive results</li>
+                                <li>Quick action buttons</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Discord Commands -->
+                    <div style="margin-top: 30px;">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">Discord Commands</h3>
+                        <div class="feature-list">
+                            <div class="feature-item" style="margin-bottom: 20px;">
+                                <strong style="color: var(--primary);">/scan &lt;token_address&gt;</strong><br>
+                                <span style="color: var(--text-dim);">Scan a Solana token for rug pull indicators</span><br>
+                                <code style="background: var(--bg-dark); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 5px;">
+                                    /scan BDuWXaAcs88guisXQWvdiDGDVNn7eR7Wxw3Q5KLgpump
+                                </code>
+                            </div>
+
+                            <div class="feature-item" style="margin-bottom: 20px;">
+                                <strong style="color: var(--primary);">/stats</strong><br>
+                                <span style="color: var(--text-dim);">View scanner statistics and usage</span><br>
+                                <code style="background: var(--bg-dark); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 5px;">
+                                    /stats
+                                </code>
+                            </div>
+
+                            <div class="feature-item">
+                                <strong style="color: var(--primary);">/help</strong><br>
+                                <span style="color: var(--text-dim);">Show help message and bot information</span><br>
+                                <code style="background: var(--bg-dark); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 5px;">
+                                    /help
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How to Add Discord Bot -->
+                    <div style="margin-top: 30px;">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">How to Add to Your Discord Server</h3>
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-top: 10px;">
+                            <ol style="color: var(--text-dim); line-height: 2; margin-left: 20px;">
+                                <li>Click the "Add to Discord" button below</li>
+                                <li>Select your server from the dropdown</li>
+                                <li>Authorize the bot with the required permissions</li>
+                                <li>Type <code>/scan</code> to start scanning tokens!</li>
+                            </ol>
+                            <div style="text-align: center; margin-top: 20px;">
+                                <button class="scan-button" style="display: inline-block; opacity: 0.6; cursor: not-allowed;" disabled>
+                                    <i class="fab fa-discord"></i> Coming Soon
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Telegram Bot Section -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[TELEGRAM] Telegram Bot Features</div>
+
+                    <div class="info-grid">
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">💬 Simple Commands</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Easy-to-use commands that work anywhere.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Works in private chats</li>
+                                <li>Works in groups</li>
+                                <li>Inline mode support</li>
+                                <li>Fast response times</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">📱 Mobile Friendly</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Perfectly formatted for mobile devices.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Clean message formatting</li>
+                                <li>Emoji indicators</li>
+                                <li>Inline buttons</li>
+                                <li>Easy to read results</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">🔗 Quick Links</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                One-tap access to blockchain explorers.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>View on Solscan</li>
+                                <li>View on DexScreener</li>
+                                <li>Share results easily</li>
+                                <li>Copy token addresses</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Telegram Commands -->
+                    <div style="margin-top: 30px;">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">Telegram Commands</h3>
+                        <div class="feature-list">
+                            <div class="feature-item" style="margin-bottom: 20px;">
+                                <strong style="color: var(--primary);">/start</strong><br>
+                                <span style="color: var(--text-dim);">Start the bot and see welcome message</span><br>
+                                <code style="background: var(--bg-dark); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 5px;">
+                                    /start
+                                </code>
+                            </div>
+
+                            <div class="feature-item" style="margin-bottom: 20px;">
+                                <strong style="color: var(--primary);">/scan &lt;token_address&gt;</strong><br>
+                                <span style="color: var(--text-dim);">Scan a Solana token for rug pull indicators</span><br>
+                                <code style="background: var(--bg-dark); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 5px;">
+                                    /scan BDuWXaAcs88guisXQWvdiDGDVNn7eR7Wxw3Q5KLgpump
+                                </code>
+                            </div>
+
+                            <div class="feature-item" style="margin-bottom: 20px;">
+                                <strong style="color: var(--primary);">/stats</strong><br>
+                                <span style="color: var(--text-dim);">View scanner statistics</span><br>
+                                <code style="background: var(--bg-dark); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 5px;">
+                                    /stats
+                                </code>
+                            </div>
+
+                            <div class="feature-item">
+                                <strong style="color: var(--primary);">/help</strong><br>
+                                <span style="color: var(--text-dim);">Show help and available commands</span><br>
+                                <code style="background: var(--bg-dark); padding: 5px 10px; border-radius: 3px; display: inline-block; margin-top: 5px;">
+                                    /help
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How to Add Telegram Bot -->
+                    <div style="margin-top: 30px;">
+                        <h3 style="color: var(--primary); margin-bottom: 15px;">How to Start Using Telegram Bot</h3>
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-top: 10px;">
+                            <ol style="color: var(--text-dim); line-height: 2; margin-left: 20px;">
+                                <li>Click the "Open in Telegram" button below</li>
+                                <li>Click "Start" in the bot chat</li>
+                                <li>Send <code>/scan &lt;token_address&gt;</code> to analyze a token</li>
+                                <li>Use <code>/help</code> for more commands</li>
+                            </ol>
+                            <div style="text-align: center; margin-top: 20px;">
+                                <button class="scan-button" style="display: inline-block; opacity: 0.6; cursor: not-allowed;" disabled>
+                                    <i class="fab fa-telegram"></i> Coming Soon
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- What Bots Display -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[📊] What the Bots Show You</div>
+                    <p style="color: var(--text-dim); line-height: 1.8; margin-top: 15px;">
+                        Both Discord and Telegram bots provide the same comprehensive analysis:
+                    </p>
+
+                    <div class="info-grid" style="margin-top: 20px;">
+                        <div class="info-card">
+                            <h3>📊 Risk Score (0-100)</h3>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Overall risk assessment</li>
+                                <li>Risk level classification</li>
+                                <li>Color-coded indicators</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>🤖 AI Prediction</h3>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>AI Score (0-100)</li>
+                                <li>Predicted class (RUG/SAFE/SUCCESS)</li>
+                                <li>Model confidence percentage</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>📈 Analysis Confidence</h3>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Data completeness score</li>
+                                <li>Reliability indicators</li>
+                                <li>Token age consideration</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>💰 Market Data</h3>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Current price USD</li>
+                                <li>Market capitalization</li>
+                                <li>Liquidity information</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>👥 Holder Stats</h3>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Total holder count</li>
+                                <li>Top holder percentage</li>
+                                <li>Distribution analysis</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card">
+                            <h3>🚨 Red Flags</h3>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Detected issues list</li>
+                                <li>Warning severity levels</li>
+                                <li>Actionable recommendations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advanced Detection Features -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[🔍] Advanced Detection Features</div>
+                    <p style="color: var(--text-dim); line-height: 1.8; margin-top: 15px;">
+                        Our AI-powered scanner includes advanced detection algorithms that identify sophisticated scam patterns:
+                    </p>
+
+                    <div class="info-grid" style="margin-top: 20px;">
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">🎯 Bundle Detection</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Detects coordinated buying patterns where multiple wallets purchase simultaneously at launch.
+                                Indicates potential bundled tokens or insider trading.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Identifies synchronized transactions</li>
+                                <li>Detects coordinated wallet behavior</li>
+                                <li>Shown inline with Fresh Wallets stat</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: #ff3333;">
+                            <h3 style="color: #ff3333;">⚠️ Sybil Attack Detection</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Identifies when many fresh wallets hold top positions - a common tactic to fake distribution and avoid concentration warnings.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Analyzes top 20 holder wallet ages</li>
+                                <li>Flags suspicious patterns (14+/20 = ALERT)</li>
+                                <li>Combined with bundle analysis</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">🤖 Sniper Bot Analysis</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Detects automated bots that instantly purchase tokens at the moment of launch using advanced MEV techniques.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Identifies sub-second purchases</li>
+                                <li>Detects MEV bot activity</li>
+                                <li>Warns of potential manipulation</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">👤 KOL Wallet Detection</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Identifies known influencer wallets in holder list. Presence of KOLs can indicate either legitimacy or coordinated pump schemes.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Tracks known influencer addresses</li>
+                                <li>Shows KOL involvement percentage</li>
+                                <li>Contextualizes token promotion</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: #ff3333;">
+                            <h3 style="color: #ff3333;">📉 Coordinated Dump Detection</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Analyzes selling patterns to detect coordinated dumps where multiple wallets sell in quick succession.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Monitors large sell transactions</li>
+                                <li>Identifies synchronized dumps</li>
+                                <li>Real-time rug pull warnings</li>
+                            </ul>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">🕐 Wallet Age Analysis</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Examines the age and transaction history of holder wallets to identify newly created accounts used in scams.
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Checks wallet creation dates</li>
+                                <li>Analyzes transaction history</li>
+                                <li>Flags fresh wallet concentration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Privacy & Security -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[🔐] Privacy & Security</div>
+
+                    <div class="info-grid">
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">✅ No Data Storage</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Bots don't store any user data, scan history, or messages. Every scan is stateless.
+                            </p>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">✅ Read-Only Access</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Bots only read messages to process commands. They never modify messages or server settings.
+                            </p>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">✅ Secure API</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                All analysis is performed via secure API calls to our backend. No sensitive data transmitted.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Setup for Developers -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[💻] Setup Your Own Bot Instance</div>
+                    <p style="color: var(--text-dim); line-height: 1.8; margin-top: 15px;">
+                        Want to run your own Scam AI bot? It's open source!
+                    </p>
+
+                    <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-top: 20px;">
+                        <pre style="color: var(--text-primary); margin: 0; overflow-x: auto;">
+# Clone the repository (bientôt disponible sur GitHub)
+# git clone https://github.com/ScamAI/scam-ai-scanner.git
+# cd scam-ai-scanner
+
+# Install dependencies
+pip install discord.py python-telegram-bot httpx
+
+# Configure .env with your bot tokens
+DISCORD_BOT_TOKEN=your_token_here
+TELEGRAM_BOT_TOKEN=your_token_here
+
+# Start the web server (required)
+python web_app.py
+
+# In another terminal, start Discord bot
+python discord_bot.py
+
+# Or start Telegram bot
+python telegram_bot.py
+                        </pre>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <p style="color: var(--text-dim); line-height: 1.8;">
+                            📖 Full setup instructions: <span style="font-style: italic;">Coming Soon sur GitHub</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[❓] Frequently Asked Questions</div>
+
+                    <div style="margin-top: 20px;">
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-bottom: 20px;">
+                            <h3 style="color: var(--primary); margin-bottom: 10px;">How do I interpret the Risk Score vs AI Score?</h3>
+                            <p style="color: var(--text-dim); line-height: 1.8;">
+                                <strong>Risk Score (0-100):</strong> Traditional analysis based on holder concentration, liquidity, and red flags. Lower = safer.<br>
+                                <strong>AI Score (0-100):</strong> Machine learning prediction trained on 1000+ historical tokens. Higher = more likely legitimate.<br><br>
+                                <em>Both scores complement each other - consider both when making decisions!</em>
+                            </p>
+                        </div>
+
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-bottom: 20px;">
+                            <h3 style="color: var(--primary); margin-bottom: 10px;">What does "Bundle: Yes" mean?</h3>
+                            <p style="color: var(--text-dim); line-height: 1.8;">
+                                "Bundle: Yes" indicates that multiple wallets purchased the token in a coordinated pattern at launch.
+                                This could mean:
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li><strong>Insider trading:</strong> Dev and friends buying before public announcement</li>
+                                <li><strong>Bot activity:</strong> Automated systems splitting buys across wallets</li>
+                                <li><strong>Bundled launch:</strong> Token sold in pre-arranged bundles</li>
+                            </ul>
+                            <p style="color: var(--text-dim); line-height: 1.8; margin-top: 10px;">
+                                <em>Bundle detection is a red flag but not always a scam - investigate further!</em>
+                            </p>
+                        </div>
+
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-bottom: 20px;">
+                            <h3 style="color: var(--primary); margin-bottom: 10px;">What's a Sybil Attack?</h3>
+                            <p style="color: var(--text-dim); line-height: 1.8;">
+                                A Sybil Attack is when a scammer creates many fresh wallets to hold the token, making it
+                                appear well-distributed while actually controlling most of the supply. Our scanner detects this by:
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li>Checking wallet ages in top 20 holders</li>
+                                <li>Flagging when 14+ out of 20 are brand new</li>
+                                <li>Combining with bundle detection analysis</li>
+                            </ul>
+                        </div>
+
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-bottom: 20px;">
+                            <h3 style="color: var(--primary); margin-bottom: 10px;">How accurate is the AI prediction?</h3>
+                            <p style="color: var(--text-dim); line-height: 1.8;">
+                                Our Random Forest and Gradient Boosting models achieve <strong>~87% accuracy</strong> based on historical data.
+                                However, scammers constantly evolve their tactics, and very new tokens may have insufficient data.
+                                The "Analysis Confidence" score tells you how reliable the prediction is for that specific token.
+                            </p>
+                        </div>
+
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary); margin-bottom: 20px;">
+                            <h3 style="color: var(--primary); margin-bottom: 10px;">What should I do if a token shows low scores?</h3>
+                            <p style="color: var(--text-dim); line-height: 1.8;">
+                                If both Risk Score and AI Score are low:
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li><strong>DO NOT</strong> invest based on FOMO</li>
+                                <li>Check the red flags list carefully</li>
+                                <li>Research the team and project independently</li>
+                                <li>Look for bundle detection and sybil warnings</li>
+                                <li>Ask yourself: "Would I be okay losing this investment?"</li>
+                            </ul>
+                            <p style="color: var(--text-dim); line-height: 1.8; margin-top: 10px;">
+                                <em>Remember: Low scores don't guarantee a rug, but they indicate high risk!</em>
+                            </p>
+                        </div>
+
+                        <div style="background: var(--bg-dark); padding: 20px; border-left: 3px solid var(--primary);">
+                            <h3 style="color: var(--primary); margin-bottom: 10px;">Why isn't my scan working?</h3>
+                            <p style="color: var(--text-dim); line-height: 1.8;">
+                                Common issues and solutions:
+                            </p>
+                            <ul style="color: var(--text-dim); margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                                <li><strong>Invalid address:</strong> Make sure you're using the correct Solana token address</li>
+                                <li><strong>Very new token:</strong> Tokens under 1 minute old may not have enough data yet</li>
+                                <li><strong>Network issues:</strong> Solana RPC can be slow during high traffic</li>
+                                <li><strong>Bot timeout:</strong> Scans take 10-30 seconds - please be patient!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Support & Community -->
+                <div class="analysis-section">
+                    <div class="analysis-title">[💬] Support & Community</div>
+                    <p style="color: var(--text-dim); line-height: 1.8; margin-top: 15px;">
+                        Need help or want to connect with the community? Here are all our official channels:
+                    </p>
+
+                    <div class="info-grid" style="margin-top: 20px;">
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">🌐 Official Website</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Full scanner with advanced features and real-time analysis.
+                            </p>
+                            <span style="color: var(--text-dim); font-style: italic; display: inline-block; margin-top: 10px;">
+                                → Coming Soon
+                            </span>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">📖 Documentation</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Learn how to use our tools, understand scores, and interpret results.
+                            </p>
+                            <a href="/docs" style="color: var(--primary); text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px;">
+                                → Read the docs
+                            </a>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">💬 Telegram Support</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Get help, report issues, and connect with other users.
+                            </p>
+                            <span style="color: var(--text-dim); font-style: italic; display: inline-block; margin-top: 10px;">
+                                → Coming Soon
+                            </span>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">🐦 Twitter/X</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Latest updates, announcements, and community alerts.
+                            </p>
+                            <span style="color: var(--text-dim); font-style: italic; display: inline-block; margin-top: 10px;">
+                                → Coming Soon
+                            </span>
+                        </div>
+
+                        <div class="info-card" style="border-color: var(--primary);">
+                            <h3 style="color: var(--primary);">💻 GitHub</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Open source code, contribute, or run your own instance.
+                            </p>
+                            <span style="color: var(--text-dim); font-style: italic; display: inline-block; margin-top: 10px;">
+                                → Coming Soon
+                            </span>
+                        </div>
+
+                        <div class="info-card" style="border-color: #ff3333;">
+                            <h3 style="color: #ff3333;">⚠️ Report Scams</h3>
+                            <p style="color: var(--text-dim); margin-top: 10px;">
+                                Found a rug pull? Help the community by reporting it!
+                            </p>
+                            <span style="color: var(--text-dim); font-style: italic; display: inline-block; margin-top: 10px;">
+                                → Coming Soon
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Disclaimer -->
+                <div class="analysis-section">
+                    <div style="background: rgba(255, 51, 51, 0.1); padding: 20px; border-left: 3px solid #ff3333; margin-top: 20px;">
+                        <h3 style="color: #ff3333; margin-bottom: 10px;">⚠️ Important Disclaimer</h3>
+                        <p style="color: var(--text-dim); line-height: 1.8;">
+                            <strong>Always DYOR (Do Your Own Research).</strong> These bots provide analysis tools
+                            but are NOT financial advice. Never invest based solely on bot results. The AI has 87%
+                            accuracy, meaning 13% error rate. Scammers constantly evolve their tactics. Use these
+                            bots as ONE part of your research process.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="footer-links">
+                        <a href="/docs" class="footer-link">DOCUMENTATION</a>
+                        <span class="footer-link" style="opacity: 0.5; cursor: default;">GITHUB (Soon)</span>
+                        <span class="footer-link" style="opacity: 0.5; cursor: default;">X (Soon)</span>
+                        <a href="https://solana.com" target="_blank" class="footer-link">SOLANA</a>
+                        <a href="https://pump.fun" target="_blank" class="footer-link">PUMP.FUN</a>
+                    </div>
+                    <div class="disclaimer">[!] ALWAYS DYOR (Do Your Own Research) | Not financial advice</div>
+                    <div class="copyright">©Scam AI 2025 - All Rights Reserved</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Cyber grid background - pure CSS (no JS needed)
+    </script>
+</body>
+</html>
+

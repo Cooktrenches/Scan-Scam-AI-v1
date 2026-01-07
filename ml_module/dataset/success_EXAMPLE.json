@@ -1,0 +1,29 @@
+[
+  {
+    "mint": "EXAMPLE_SUCCESS_MINT_ADDRESS_1",
+    "name": "MoonCoin",
+    "symbol": "MOON",
+    "creator": "CREATOR_WALLET_ADDRESS",
+    "created_timestamp": 1234567890,
+    "peak_mcap": 15000000,
+    "notes": "Reached $15M market cap, active for 60+ days"
+  },
+  {
+    "mint": "EXAMPLE_SUCCESS_MINT_ADDRESS_2",
+    "name": "GemToken",
+    "symbol": "GEM",
+    "creator": "CREATOR_WALLET_ADDRESS",
+    "created_timestamp": 1234567891,
+    "peak_mcap": 8500000,
+    "notes": "Sustained $8.5M mcap, graduated to Raydium"
+  },
+  {
+    "mint": "EXAMPLE_SUCCESS_MINT_ADDRESS_3",
+    "name": "RealCoin",
+    "symbol": "REAL",
+    "creator": "CREATOR_WALLET_ADDRESS",
+    "created_timestamp": 1234567892,
+    "peak_mcap": 25000000,
+    "notes": "Major success - $25M mcap, still active"
+  }
+]
