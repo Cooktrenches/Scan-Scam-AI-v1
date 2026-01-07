@@ -123,8 +123,8 @@ python telegram_bot.py
 
 ```bash
 # Clone the repository
-git clone https://github.com/RugAIOfficial/rug-ai-scanner.git
-cd "rug-ai-scanner"
+git clone https://github.com/Cooktrenches/Scan-Scam-AI-v1.git
+cd "Scan-Scam-AI-v1"
 
 # Install dependencies
 pip install -r requirements.txt
@@ -274,7 +274,7 @@ We welcome contributions! The model improves as the dataset grows.
 
 ## 📞 Support
 
-- **GitHub**: [RugAIOfficial](https://github.com/RugAIOfficial)
+- **GitHub**: [Cooktrenches](https://github.com/Cooktrenches/Scan-Scam-AI-v1)
 
 ## 📝 License
 
