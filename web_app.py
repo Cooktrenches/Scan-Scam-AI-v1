@@ -588,7 +588,10 @@ if __name__ == '__main__':
         if hasattr(sys.stdout, 'reconfigure'):
             sys.stdout.reconfigure(encoding='utf-8')
 
+    # Get port from environment (for Render deployment) or default to 5000
+    port = int(os.environ.get('PORT', 5000))
+
     print("Starting SCAM AI Web Server...")
-    print("Access at: http://localhost:5000")
-    print("Documentation: http://localhost:5000/docs")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    print(f"Access at: http://localhost:{port}")
+    print(f"Documentation: http://localhost:{port}/docs")
+    app.run(debug=False, host='0.0.0.0', port=port)

@@ -43,7 +43,7 @@ Advanced Machine Learning model trained on 800+ real pump.fun tokens
     keyboard = [
         [
             InlineKeyboardButton("🌐 Website", url="https://scamai.fun"),
-            InlineKeyboardButton("🐦 Twitter", url="https://twitter.com/ScamAiScan")
+            InlineKeyboardButton("🐦 Twitter", url="https://x.com/ScamAIscanner")
         ],
         [
             InlineKeyboardButton("📖 Documentation", url="https://scamai.fun/bots"),
@@ -86,13 +86,13 @@ Most scans complete in 15-30 seconds
 
 <b>🌐 Links:</b>
 Website: scamai.fun
-Twitter: @ScamAiScan</b>"""
+Twitter: @ScamAIscanner</b>"""
 
     # Create inline keyboard
     keyboard = [
         [
             InlineKeyboardButton("🌐 Website", url="https://scamai.fun"),
-            InlineKeyboardButton("🐦 Twitter", url="https://twitter.com/ScamAiScan")
+            InlineKeyboardButton("🐦 Twitter", url="https://x.com/ScamAIscanner")
         ],
         [
             InlineKeyboardButton("📖 Documentation", url="https://scamai.fun/bots")

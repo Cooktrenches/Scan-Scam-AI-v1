@@ -704,7 +704,7 @@ async def help_command(interaction: discord.Interaction):
 
     embed.add_field(
         name="🌐 Links",
-        value="[Website](https://scamai.fun) | [Twitter](https://twitter.com/ScamAiScan) | [Documentation](https://scamai.fun/bots) | [Support](https://t.me/CookOfTrenches)",
+        value="[Website](https://scamai.fun) | [Twitter](https://x.com/ScamAIscanner) | [Documentation](https://scamai.fun/bots) | [Support](https://t.me/CookOfTrenches)",
         inline=False
     )
 
