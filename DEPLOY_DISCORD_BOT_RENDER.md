@@ -18,7 +18,7 @@ Ce guide explique comment déployer le bot Discord sur Render pour qu'il soit en
 4. Configure le service:
 
 **Settings:**
-- **Name**: `rug-ai-discord-bot`
+- **Name**: `scam-ai-discord-bot`
 - **Region**: `Frankfurt (EU Central)` (ou le plus proche de tes utilisateurs)
 - **Branch**: `main`
 - **Root Directory**: Leave empty
@@ -75,11 +75,11 @@ Le bot devrait répondre avec l'analyse complète!
 
 ## Avec un Nom de Domaine Personnalisé
 
-### Quand tu achèteras ton domaine (ex: `rugai.io`)
+### Quand tu achèteras ton domaine (ex: `scamai.fun`)
 
 1. **Dans Render** (ton app web):
    - Va dans Settings → Custom Domain
-   - Ajoute `rugai.io` et `www.rugai.io`
+   - Ajoute `scamai.fun` et `www.scamai.fun`
    - Copie les DNS records
 
 2. **Chez ton registrar** (Namecheap, Google Domains):
@@ -89,7 +89,7 @@ Le bot devrait répondre avec l'analyse complète!
 3. **Met à jour l'API_URL**:
    - Sur Render, dans les Environment Variables du bot Discord
    - Change `API_URL` de `https://scan-beta-v1.onrender.com`
-   - Vers `https://rugai.io` (ou ton domaine)
+   - Vers `https://scamai.fun` (ou ton domaine)
 
 4. **Redéploie le bot** pour appliquer les changements
 
@@ -109,9 +109,9 @@ Le bot devrait répondre avec l'analyse complète!
 ## Conseils pour les Noms de Domaine
 
 **Suggestions:**
-- `rugai.io` - Court et mémorable ⭐ (Recommandé)
-- `rugai.app` - Moderne
-- `solanarug.ai` - Descriptif
+- `scamai.fun` - Court et mémorable ⭐ (Recommandé)
+- `scamai.fun` - Moderne
+- `solanascam.ai` - Descriptif
 - `rugscanner.io` - Clair
 
 **Où acheter:**
@@ -131,7 +131,7 @@ Le bot devrait répondre avec l'analyse complète!
 
 Même processus:
 1. Créer un nouveau Web Service sur Render
-2. Name: `rug-ai-telegram-bot`
+2. Name: `scam-ai-telegram-bot`
 3. Start Command: `python telegram_bot.py`
 4. Ajouter les variables: `TELEGRAM_BOT_TOKEN` et `API_URL`
 

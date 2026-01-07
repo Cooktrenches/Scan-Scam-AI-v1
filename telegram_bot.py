@@ -42,11 +42,11 @@ Advanced Machine Learning model trained on 800+ real pump.fun tokens
     # Create inline keyboard with buttons
     keyboard = [
         [
-            InlineKeyboardButton("🌐 Website", url="https://rugai.app"),
-            InlineKeyboardButton("🐦 Twitter", url="https://twitter.com/RugAiScan")
+            InlineKeyboardButton("🌐 Website", url="https://scamai.fun"),
+            InlineKeyboardButton("🐦 Twitter", url="https://twitter.com/ScamAiScan")
         ],
         [
-            InlineKeyboardButton("📖 Documentation", url="https://rugai.xyz/bots"),
+            InlineKeyboardButton("📖 Documentation", url="https://scamai.fun/bots"),
             InlineKeyboardButton("💬 Support", url="https://t.me/CookOfTrenches")
         ]
     ]
@@ -85,17 +85,17 @@ Simply paste any Solana address (32-44 characters)
 Most scans complete in 15-30 seconds
 
 <b>🌐 Links:</b>
-Website: rugai.app
-Twitter: @RugAiScan</b>"""
+Website: scamai.fun
+Twitter: @ScamAiScan</b>"""
 
     # Create inline keyboard
     keyboard = [
         [
-            InlineKeyboardButton("🌐 Website", url="https://rugai.app"),
-            InlineKeyboardButton("🐦 Twitter", url="https://twitter.com/RugAiScan")
+            InlineKeyboardButton("🌐 Website", url="https://scamai.fun"),
+            InlineKeyboardButton("🐦 Twitter", url="https://twitter.com/ScamAiScan")
         ],
         [
-            InlineKeyboardButton("📖 Documentation", url="https://rugai.xyz/bots")
+            InlineKeyboardButton("📖 Documentation", url="https://scamai.fun/bots")
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)

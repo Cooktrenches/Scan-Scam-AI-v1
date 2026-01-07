@@ -65,7 +65,7 @@ pip install -r requirements.txt
 2. Send `/newbot`
 3. Follow the instructions:
    - Choose a name (e.g., "SCAM AI Scanner")
-   - Choose a username (e.g., "RugAIScannerBot")
+   - Choose a username (e.g., "ScamAIScannerBot")
 4. Copy the bot token
 5. (Optional) Send `/setdescription` to add a description
 6. (Optional) Send `/setabouttext` to add about text
@@ -363,7 +363,7 @@ Restart bots after updates.
 
 ## 📞 Support
 
-- **GitHub**: [RugAIOfficial](https://github.com/RugAIOfficial)
+- **GitHub**: [Cooktrenches/Scan-Scam-AI-v1](https://github.com/Cooktrenches/Scan-Scam-AI-v1)
 - **Documentation**: [Main README](README.md)
 
 ## ⚠️ Disclaimer
